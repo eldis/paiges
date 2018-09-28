@@ -8,7 +8,7 @@ lazy val noPublish = Seq(
   publishArtifact := false)
 
 lazy val paigesSettings = Seq(
-  organization := "org.typelevel",
+  organization := "com.github.eldis",
   scalaVersion := "2.12.4",
   crossScalaVersions := Seq("2.10.7", "2.11.12", "2.12.4"),
   libraryDependencies ++= Seq(
@@ -63,7 +63,7 @@ lazy val paigesSettings = Seq(
       Some("Releases" at nexus + "service/local/staging/deploy/maven2")
   },
   pomExtra := (
-    <url>https://github.com/typelevel/paiges</url>
+    <url>https://github.com/eldis/paiges</url>
     <licenses>
       <license>
         <name>Apache 2</name>
@@ -73,8 +73,8 @@ lazy val paigesSettings = Seq(
       </license>
     </licenses>
     <scm>
-      <url>git@github.com:typelevel/paiges.git</url>
-      <connection>scm:git:git@github.com:typelevel/paiges.git</connection>
+      <url>git@github.com:eldis/paiges.git</url>
+      <connection>scm:git:git@github.com:eldis/paiges.git</connection>
     </scm>
     <developers>
       <developer>
